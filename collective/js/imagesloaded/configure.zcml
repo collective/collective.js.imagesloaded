@@ -16,5 +16,5 @@
       description='Extension profile for collective.js.imagesloaded.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-
+  <include file="upgrades.zcml"/>
 </configure>

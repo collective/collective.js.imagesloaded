@@ -3,7 +3,7 @@ Introduction
 
 Register jquery.imagesloaded_ plugin in Plone's resource registry.
 
-version: 1.0.4
+version: 2.1.0
 
 About jquery.imagesloaded
 =========================
@@ -32,13 +32,14 @@ Companies
 
 |makinacom|_
 
-  * `Planet Makina Corpus <http://www.makina-corpus.org>`_
-  * `Contact us <mailto:python@makina-corpus.org>`_
+* `Planet Makina Corpus <http://www.makina-corpus.org>`_
+* `Contact Makina Corpus <mailto:python@makina-corpus.org>`_
 
 
 Authors
+-------
 
-  - JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
+- JeanMichel FRANCOIS aka toutpt <toutpt@gmail.com>
 
 .. Contributors
 

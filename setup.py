@@ -1,22 +1,25 @@
 from setuptools import setup, find_packages
-import os
 
-version = '1.1.dev0'
+version = '2.1.dev0'
 
 setup(name='collective.js.imagesloaded',
       version=version,
       description="Register JQuery imagesloaded plugin in Plone resource registry",
       long_description=open("README.rst").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open("CHANGES.txt").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
+        "Environment :: Web Environment",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Operating System :: OS Independent",
         "Framework :: Plone",
         "Framework :: Plone :: 4.0",
         "Framework :: Plone :: 4.1",
+        "Framework :: Plone :: 4.2",
         "Programming Language :: Python",
         ],
-      keywords='',
+      keywords='plone javascripts imagesloaded',
       author='JeanMichel FRANCOIS aka toutpt',
       author_email='toutpt@gmail.com',
       url='https://github.com/collective/collective.js.imagesloaded',
